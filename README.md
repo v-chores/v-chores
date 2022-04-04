@@ -1,6 +1,7 @@
-# EXAMPLE GROUP PROJECT README
+# V-Chores PROJECT README
 
-# TUNIN
+# V-Chores
+VChores is an app for Vassar Student to post and exchange petty work on-campus.
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -161,5 +162,3 @@ Tracks what music an individual listens to, and pairs them with others based on 
     `GET`    | /regions | gets all regions
     `GET`    | /regions/byId/:id | gets specific region by :ida
     `GET`    | /characters/paths/:name | gets a character's path with a given namea
-# v-chores
-VChores is an app for Vassar Student to post and exchange petty work on-campus.
