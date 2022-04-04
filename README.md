@@ -1,8 +1,5 @@
 # V-Chores PROJECT README
 
-# V-Chores
-VChores is an app for Vassar Student to post and exchange petty work on-campus.
-
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
@@ -11,7 +8,7 @@ VChores is an app for Vassar Student to post and exchange petty work on-campus.
 
 ## Overview
 ### Description
-Tracks what music an individual listens to, and pairs them with others based on that music. Could be potentially used as a dating app, or just meeting new friends with similar music tastes.
+VChores is an app for Vassar Student to post and exchange petty work on-campus.
 
 ### App Evaluation
 - **Category:** Social Networking / Music
