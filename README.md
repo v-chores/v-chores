@@ -25,52 +25,69 @@ Tracks what music an individual listens to, and pairs them with others based on 
 
 **Required Must-have Stories**
 
-* User logs in to access previous chats and preference settings
-* User picks what their favorite artist/genre/etc. (Think Spotify interface)
-* Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
-* Profile pages for each user
-* Settings (Accesibility, Notification, General, etc.)
+* User can create a new account
+* User can edit their public profile 
+* User can post requests with photos 
+* User can login, logout, etc. 
+* User can search for other users using filters for skills and compensation/ price 
+* User can view a feed of transactions
 
 **Optional Nice-to-have Stories**
 
-* Log of past songs/people with album art covers matching
-* Page of most played songs (i.e. songs that most users are connecting through)
-* Profile Add-On: Top music choices, etc.
-* Optional Shuffle Button (i.e. random encounter/random song)
-* Listening/Encounter Queue
+* User can rate a transaction or rate another user 
+* User can pay other users 
+* User can like and comment on a transaction 
+* User can get notifications if another user requests a skill they offer 
+* User can chat with each other
 
 ### 2. Screen Archetypes
 
-* Login 
-* Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
-   * ...
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
-   * Upon selecting music choice users matched and message screen opens
-* Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
-* Song Selection Screen.
-   * Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
-* Settings Screen
-   * Lets people change language, and app notification settings.
+* Launch Screen
+* Login Screen
+   * User can login
+* Registration Screen
+    * User can create a new account 
+* Feed Screen
+    *  User can view their upcoming appointments 
+    *  User can view a feed of transactions
+* Account Screen
+    * User can edit their public profile 
+    * User can add a new skill 
+* Profile Screen
+    * User can view other's user profile 
+    * User can book another user for their request 
+* Request Screen 
+    * User can post a request 
+* Search Screen 
+    * User can search for other users using filters 
+    * User can follow other users 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
-* Profile
-* Settings
-
-Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
+* Feed
+* Account 
+* Post 
+* Search 
 
 **Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+
+* Login Screen
+    * => Feed Screen 
+* Login Screen
+    * => Registration Screen
+* Registration Screen 
+    * => Feed Screen 
+* Feed Screen 
+    * => Request Screen 
+* Feed Screen
+    * => None, but future version will likely navigate to a detailed screen to see a transaction with full comments 
+* Request Screen
+    * => Feed Screen 
+* Search Screen
+    * => Profile Screen 
+
 
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
