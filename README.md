@@ -11,12 +11,13 @@
 VChores is an app for Vassar Student to post and exchange petty work on-campus.
 
 ### App Evaluation
-- **Category:** Social Networking / Music
+- **Category:** Social Networking / Job Listing
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Analyzes users music choices, and connects them to other users with similar choices. The user can then decide to message this person and befriend them if wanted.
-- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
-- **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.
-- **Scope:** First we would start with pairing people based on music taste, then perhaps this could evolve into a music sharing application as well to broaden its usage. Large potential for use with spotify, apple music, or other music streaming applications.
+- **Story:** Users can request "personal services" (i.e. haircuts, nails, sowing, etc) and connect with a "Professional" - those who can provide those services. The user can then decide to message this person and sign up for an appointment. 
+- **Market:** Any Vassar Student could choose to use this app - preferrably those who either can provide or need different services. 
+- **Habit:** This app could be used as often or unoften as the user wanted depending on their urgency for the services or if they want to make a quick buck. 
+- **Scope:** First we would start with just Vassar students who need different favors/services. However, this can be scaled into different universities, communities, and towns. 
+
 
 ## Product Spec
 ### 1. User Stories (Required and Optional)
