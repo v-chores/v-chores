@@ -8,12 +8,12 @@
 
 ## Overview
 ### Description
-VChores is an app for Vassar Student to post and exchange petty work on-campus.
+VChores is an app for Vassar Student to post and exchange "personal services" such as haircuts, nails, sowing, etc., or even make a quick buck in return for the service. 
 
 ### App Evaluation
 - **Category:** Social Networking / Job Listing
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Users can request "personal services" (i.e. haircuts, nails, sowing, etc) and connect with a "Professional" - those who can provide those services. The user can then decide to message this person and sign up for an appointment. 
+- **Story:** Users can request "personal services" and connect with a "Professional" - those who can provide those services. The user can then decide to message this person and sign up for an appointment. 
 - **Market:** Any Vassar Student could choose to use this app - preferrably those who either can provide or need different services. 
 - **Habit:** This app could be used as often or unoften as the user wanted depending on their urgency for the services or if they want to make a quick buck. 
 - **Scope:** First we would start with just Vassar students who need different favors/services. However, this can be scaled into different universities, communities, and towns. 
