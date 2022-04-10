@@ -89,5 +89,6 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 
 ### [BONUS] Digital Wireframes & Mockups
 ![V-Chores Wireframe](https://user-images.githubusercontent.com/78479343/162598268-358b6d8d-f77e-475b-a412-426c73189880.png)
+Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-id=0%3A1
 
 
