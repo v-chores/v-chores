@@ -106,3 +106,23 @@ Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
+   
+### Networking
+#### List of network requests by screen
+   - Home Feed Screen
+      - (Read/GET) 
+      - (Create/POST) Create a new like on a post
+      - (Delete) Delete existing like
+      - (Create/POST) Create a new a post
+      - (Create/POST) Create a new comment on a post
+      - (Delete) Delete existing post
+      - (Delete) Delete existing comment
+   - Create Post Screen
+      - (Create/POST) Create a new post object
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
+      - (Update/PUT) Update user username
+      - (Update/PUT) Update user Bio
+      - (Update/PUT) Update user class year
+      - (Update/PUT) Update user pronouns
