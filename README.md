@@ -92,4 +92,17 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 ![V-Chores Wireframe](https://user-images.githubusercontent.com/78479343/162598268-358b6d8d-f77e-475b-a412-426c73189880.png)
 Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-id=0%3A1
 
+## Schema 
+### Models
+#### Post
 
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | Professional  | Pointer to User| image Professional |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by Professional |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | likesCount    | Number   | number of likes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
