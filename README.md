@@ -38,6 +38,7 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 * User can like and comment on a transaction 
 * User can get notifications if another user requests a skill they offer 
 * User can chat with each other
+* User can share a request as a link
 
 ### 2. Screen Archetypes
 
@@ -46,7 +47,7 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
    * User can login
 * Registration Screen
     * User can create a new account 
-* Feed Screen
+* Main Screen
     *  User can view their upcoming appointments 
     *  User can view a feed of transactions
 * Account Screen
@@ -55,11 +56,13 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 * Profile Screen
     * User can view other's user profile 
     * User can book another user for their request 
-* Request Screen 
+* Create Post Screen 
     * User can post a request 
 * Search Screen 
     * User can search for other users using filters 
     * User can follow other users 
+* Search Result Screen TBD
+* Single Post Screen TBD
 
 ### 3. Navigation
 
@@ -106,10 +109,11 @@ Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
+   | accepted      | Boolean  | whether or not the request is accepted |
    
 ### Networking
 #### List of network requests by screen
-   - Home Feed Screen
+   - Main Screen
       - (Read/GET) 
       - (Create/POST) Create a new like on a post
       - (Delete) Delete existing like
@@ -119,7 +123,7 @@ Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-
       - (Delete) Delete existing comment
    - Create Post Screen
       - (Create/POST) Create a new post object
-   - Profile Screen
+   - Account Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
       - (Update/PUT) Update user username
