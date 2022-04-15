@@ -59,10 +59,12 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 * Create Post Screen 
     * User can post a request 
 * Create Search Screen 
-    * User can search for other users using filters 
+    * User can search for other users using skill tags  
     * User can follow other users 
-* Search Result Screen TBD
-* Single Post Screen TBD
+* Search Result Screen 
+    * User can click on a request and view the single post screeen of that request 
+* Single Post Screen 
+    * User can view all comments of the post 
 
 ### 3. Navigation
 
