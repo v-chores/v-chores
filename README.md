@@ -84,13 +84,17 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 * Registration Screen 
     * => Feed Screen 
 * Feed Screen 
-    * => Request Screen 
+    * => Create Post Screen 
 * Feed Screen
-    * => None, but future version will likely navigate to a detailed screen to see a transaction with full comments 
+    * => Single Post Screen
 * Request Screen
     * => Feed Screen 
 * Search Screen
-    * => Profile Screen 
+    * => Search Result Screen 
+* Search Result Screen 
+    * => Single Post Screen 
+* Profile Screen 
+    * => Single Post Screen 
 
 ### Wireframes
 ### [BONUS] Digital Wireframes & Mockups
