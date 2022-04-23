@@ -1,6 +1,0 @@
-framework module Pods_VChoresTests {
-  umbrella header "Pods-VChoresTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
