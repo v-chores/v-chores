@@ -18,6 +18,7 @@
 		4E8AA2082813C35E002E6235 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AA2072813C35E002E6235 /* FeedViewController.swift */; };
 		4E8AA20A2813C36D002E6235 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AA2092813C36D002E6235 /* LoginViewController.swift */; };
 		4E8AA20C2813CB3D002E6235 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AA20B2813CB3C002E6235 /* RequestViewController.swift */; };
+		4E8AA20E2813D67B002E6235 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AA20D2813D67A002E6235 /* RequestCell.swift */; };
 		7930E2A71558C144B01E882F /* Pods_VChores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		4E8AA2072813C35E002E6235 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		4E8AA2092813C36D002E6235 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4E8AA20B2813CB3C002E6235 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		4E8AA20D2813D67A002E6235 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
 		7A42CC37F147345C52DBD4AD /* Pods-VChores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VChores.release.xcconfig"; path = "Target Support Files/Pods-VChores/Pods-VChores.release.xcconfig"; sourceTree = "<group>"; };
 		8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VChores.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 				4E35DC3B28136FF7009844BB /* Info.plist */,
 				4E8AA2072813C35E002E6235 /* FeedViewController.swift */,
 				4E8AA2092813C36D002E6235 /* LoginViewController.swift */,
+				4E8AA20D2813D67A002E6235 /* RequestCell.swift */,
 			);
 			path = VChores;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8AA20A2813C36D002E6235 /* LoginViewController.swift in Sources */,
+				4E8AA20E2813D67B002E6235 /* RequestCell.swift in Sources */,
 				4E35DC2E28136FF5009844BB /* AppDelegate.swift in Sources */,
 				4E8AA20C2813CB3D002E6235 /* RequestViewController.swift in Sources */,
 				4E8AA2082813C35E002E6235 /* FeedViewController.swift in Sources */,
