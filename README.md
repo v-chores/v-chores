@@ -136,3 +136,6 @@ Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-
       - (Update/PUT) Update user Bio
       - (Update/PUT) Update user class year
       - (Update/PUT) Update user pronouns
+
+### 4. App Walkthrough GIF
+<img src="milestone1.gif" width=250><br>
