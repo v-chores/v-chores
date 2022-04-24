@@ -41,7 +41,17 @@ class LoginViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        usernameField.layer.masksToBounds = true
+        usernameField.layer.borderColor = CGColor(red: 112/255, green: 162/255, blue: 48/255, alpha: 1)
+        usernameField.layer.borderWidth = 1.0
+        usernameField.layer.cornerRadius = 15
+        
+        passwordField.layer.masksToBounds = true
+        passwordField.layer.borderColor = CGColor(red: 112/255, green: 162/255, blue: 48/255, alpha: 1)
+        passwordField.layer.borderWidth = 1.0
+        passwordField.layer.cornerRadius = 15
+        
+        
         // Do any additional setup after loading the view.
     }
     
