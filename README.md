@@ -24,21 +24,21 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 
 **Required Must-have Stories**
 
-* User can create a new account
-* User can edit their public profile 
-* User can post requests with photos 
-* User can login, logout, etc. 
-* User can search for other users using filters for skills and compensation/ price 
-* User can view a feed of transactions
+[x] User can create a new account
+[ ] User can edit their public profile 
+[x] User can post requests with photos 
+[x] User can login, logout, etc. 
+[ ] User can search for other users using filters for skills and compensation/ price 
+[x] User can view a feed of transactions
 
 **Optional Nice-to-have Stories**
 
-* User can rate a transaction or rate another user 
-* User can pay other users 
-* User can like and comment on a transaction 
-* User can get notifications if another user requests a skill they offer 
-* User can chat with each other
-* User can share a request as a link
+[ ] User can rate a transaction or rate another user 
+[ ] User can pay other users 
+[ ] User can like and comment on a transaction 
+[ ] User can get notifications if another user requests a skill they offer 
+[ ] User can chat with each other
+[ ] User can share a request as a link
 
 ### 2. Screen Archetypes
 
