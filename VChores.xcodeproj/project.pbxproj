@@ -23,6 +23,7 @@
 		523EAD1F281509A70008F653 /* UICustomButton in Resources */ = {isa = PBXBuildFile; fileRef = 523EAD1E281509A70008F653 /* UICustomButton */; };
 		52443EC928153C14002BBAD8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52443EC828153C13002BBAD8 /* SearchViewController.swift */; };
 		52443ECB28153D91002BBAD8 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52443ECA28153D91002BBAD8 /* AccountViewController.swift */; };
+		5267573E281C6932006FC4FD /* SinglePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267573D281C6932006FC4FD /* SinglePostViewController.swift */; };
 		7930E2A71558C144B01E882F /* Pods_VChores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */; };
 		FA8849F128170C76001A03EE /* SVN-Harabaras.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8849EF28170C61001A03EE /* SVN-Harabaras.ttf */; };
 		FA8849F228170C78001A03EE /* SVN-Abril Fatface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8849F028170C74001A03EE /* SVN-Abril Fatface.ttf */; };
@@ -68,6 +69,7 @@
 		523EAD1E281509A70008F653 /* UICustomButton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UICustomButton; sourceTree = "<group>"; };
 		52443EC828153C13002BBAD8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		52443ECA28153D91002BBAD8 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		5267573D281C6932006FC4FD /* SinglePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePostViewController.swift; sourceTree = "<group>"; };
 		7A42CC37F147345C52DBD4AD /* Pods-VChores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VChores.release.xcconfig"; path = "Target Support Files/Pods-VChores/Pods-VChores.release.xcconfig"; sourceTree = "<group>"; };
 		8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VChores.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8849EF28170C61001A03EE /* SVN-Harabaras.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SVN-Harabaras.ttf"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				4E8AA20D2813D67A002E6235 /* RequestCell.swift */,
 				52443EC828153C13002BBAD8 /* SearchViewController.swift */,
 				52443ECA28153D91002BBAD8 /* AccountViewController.swift */,
+				5267573D281C6932006FC4FD /* SinglePostViewController.swift */,
 			);
 			path = VChores;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 			files = (
 				4E8AA20A2813C36D002E6235 /* LoginViewController.swift in Sources */,
 				4E8AA20E2813D67B002E6235 /* RequestCell.swift in Sources */,
+				5267573E281C6932006FC4FD /* SinglePostViewController.swift in Sources */,
 				52443EC928153C14002BBAD8 /* SearchViewController.swift in Sources */,
 				523EAD1D281509980008F653 /* CornerPosition.swift in Sources */,
 				FA8849F428170EDD001A03EE /* CustomTextField.swift in Sources */,

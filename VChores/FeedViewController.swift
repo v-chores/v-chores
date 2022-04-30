@@ -64,6 +64,16 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let request = requests[indexPath.row]
+        
+        let detailsViewController = segue.destination as! SinglePostViewController
+        detailsViewController.request = request
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
     
 
     /*

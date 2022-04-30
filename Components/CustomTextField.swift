@@ -29,8 +29,8 @@ class CustomField:UITextField{
     }
     
     private func setPlaceholderColor(){
-        self.attributedPlaceholder = NSAttributedString(string: self.placeholder ?? "",
-                                                        attributes: )
+//        self.attributedPlaceholder = NSAttributedString(string: self.placeholder ?? "",
+//                                                        attributes: )
     }
     
 }
