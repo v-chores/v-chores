@@ -30,6 +30,7 @@ VChores is an app for Vassar Student to post and exchange "personal services" su
 - [x] User can login, logout, etc. 
 - [ ] User can search for other users using filters for skills and compensation/ price 
 - [x] User can view a feed of transactions
+- [x] User can view a single post in isolation
 
 **Optional Nice-to-have Stories**
 
@@ -138,4 +139,7 @@ Link: https://www.figma.com/file/hb3J7mbqvKxKjfvb54zeRE/V-Chores-Wireframe?node-
       - (Update/PUT) Update user pronouns
 
 ### 4. App Walkthrough GIF
+#### Milestone 2
+<img src="milestone2.gif" width=250><br>
+#### Milestone 1
 <img src="milestone1.gif" width=250><br>
