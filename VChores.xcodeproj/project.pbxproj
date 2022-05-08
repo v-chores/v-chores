@@ -25,6 +25,7 @@
 		52443ECB28153D91002BBAD8 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52443ECA28153D91002BBAD8 /* AccountViewController.swift */; };
 		5267573E281C6932006FC4FD /* SinglePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5267573D281C6932006FC4FD /* SinglePostViewController.swift */; };
 		7930E2A71558C144B01E882F /* Pods_VChores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */; };
+		FA00D53528270579003FE1F3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00D53428270578003FE1F3 /* ProfileView.swift */; };
 		FA8849F128170C76001A03EE /* SVN-Harabaras.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8849EF28170C61001A03EE /* SVN-Harabaras.ttf */; };
 		FA8849F228170C78001A03EE /* SVN-Abril Fatface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA8849F028170C74001A03EE /* SVN-Abril Fatface.ttf */; };
 		FA8849F428170EDD001A03EE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8849F328170EDD001A03EE /* CustomTextField.swift */; };
@@ -72,6 +73,7 @@
 		5267573D281C6932006FC4FD /* SinglePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePostViewController.swift; sourceTree = "<group>"; };
 		7A42CC37F147345C52DBD4AD /* Pods-VChores.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VChores.release.xcconfig"; path = "Target Support Files/Pods-VChores/Pods-VChores.release.xcconfig"; sourceTree = "<group>"; };
 		8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VChores.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00D53428270578003FE1F3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FA8849EF28170C61001A03EE /* SVN-Harabaras.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SVN-Harabaras.ttf"; sourceTree = "<group>"; };
 		FA8849F028170C74001A03EE /* SVN-Abril Fatface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SVN-Abril Fatface.ttf"; sourceTree = "<group>"; };
 		FA8849F328170EDD001A03EE /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		4E35DC2128136FF5009844BB = {
 			isa = PBXGroup;
 			children = (
+				FA00D5332827054C003FE1F3 /* SwiftUI Views */,
 				FA8849EA28170AB2001A03EE /* Fonts */,
 				523EAD1B281508630008F653 /* Components */,
 				4E35DC2C28136FF5009844BB /* VChores */,
@@ -189,6 +192,14 @@
 				8D6BFFF4637EF371A00E891F /* Pods_VChores.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA00D5332827054C003FE1F3 /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA00D53428270578003FE1F3 /* ProfileView.swift */,
+			);
+			path = "SwiftUI Views";
 			sourceTree = "<group>";
 		};
 		FA8849EA28170AB2001A03EE /* Fonts */ = {
@@ -382,6 +393,7 @@
 				4E8AA20E2813D67B002E6235 /* RequestCell.swift in Sources */,
 				5267573E281C6932006FC4FD /* SinglePostViewController.swift in Sources */,
 				52443EC928153C14002BBAD8 /* SearchViewController.swift in Sources */,
+				FA00D53528270579003FE1F3 /* ProfileView.swift in Sources */,
 				523EAD1D281509980008F653 /* CornerPosition.swift in Sources */,
 				FA8849F428170EDD001A03EE /* CustomTextField.swift in Sources */,
 				4E35DC2E28136FF5009844BB /* AppDelegate.swift in Sources */,
@@ -566,8 +578,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D44QB2654K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VChores/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
@@ -583,6 +597,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.VChores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,8 +610,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D44QB2654K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VChores/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
@@ -612,6 +629,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.VChores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
